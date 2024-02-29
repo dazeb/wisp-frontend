@@ -2,7 +2,7 @@ repo_name: dazeb/wisp-frontend
 report_id: 8f4f7f1d589f5701a0eba1a1d92c4c65
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-11T19:08:27+00:00'
+timestamp: '2024-02-29T19:27:59+00:00'
 requested_by: Software-Noob
 provider: github
 branch: master
@@ -494,6 +494,13 @@ tools:
   last_updated_by: Stepan Fedotov
   last_updated_on: 2022-03-31 17:03:38.000000000 Z
   vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 2.9.17
   - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
       (//)
     cve_id: CVE-2023-34092
